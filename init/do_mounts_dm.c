@@ -343,6 +343,9 @@ parse_fail:
 	return 0;
 }
 
+int dm_ioctl_export(struct mapped_device *md, const char *name,
+		    const char *uuid);
+
 static void __init dm_setup_drives(void)
 {
 	struct mapped_device *md = NULL;
