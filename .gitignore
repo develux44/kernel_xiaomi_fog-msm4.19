@@ -138,4 +138,6 @@ kernel/configs/android-*.cfg
 clang
 zyc
 eva
-out
+out/
+AnyKernel3-680
+aarch64-linux-android-4.9/
