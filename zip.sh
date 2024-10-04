@@ -10,5 +10,3 @@ elif [[ -f out/arch/arm64/boot/Image ]]; then
 if [ -f out/arch/arm64/boot/dtbo.img ]; then
 	cp out/arch/arm64/boot/dtbo.img AnyKernel3-680/dtbo.img
 fi
-rm -rf Kernel.zip
-zip -r Kernel.zip AnyKernel3-680/
